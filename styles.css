@@ -37,6 +37,7 @@ body {
 .hero img {
     height: 150px;
     width: 500px;
+    max-width: 40%;
 }
 
 .hero h1 {
@@ -62,4 +63,45 @@ body {
 
 .separator {
     justify-content: flex-start;
+    max-width: 40%;
+}
+
+.cube {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+#boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-box{
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.information{
+    width: 100%;
+    height: 450px ;
+    
+}
+
+.information h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content-box{
+    text-align: justify;
 }
