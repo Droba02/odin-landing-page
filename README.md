@@ -1,1 +1,1 @@
-# oding-landing-page
+This website is part of an odin course final project for css and html basics

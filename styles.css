@@ -3,17 +3,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .nav,.hero,.footer{
     background-color: #1F2937;
     width: 100%;
+    
 }
 
 .nav ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
+    margin-top: 20px;
 }
 
 .nav {
@@ -25,19 +28,24 @@ body {
 
 .nav p {
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .hero{
     display: flex;
-    padding: 50px;
+    padding: auto;
     justify-content: center;
     gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero img {
-    height: 150px;
-    width: 500px;
+    height: auto;
+    width: 250px;
     max-width: 40%;
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 .hero h1 {
@@ -64,6 +72,7 @@ body {
 .separator {
     justify-content: flex-start;
     max-width: 40%;
+    flex-grow: 0;
 }
 
 .cube {
@@ -76,12 +85,13 @@ body {
 }
 #boxes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 8px;
 }
 
 .content-box{
-    max-width: 20%;
+    max-width: 15%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -103,5 +113,36 @@ body {
 }
 
 .content-box{
-    text-align: justify;
+    overflow: auto;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+#saying{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 60%;
+    overflow: auto;
+    margin: 0;
+    margin-top: 40px;
+}
+#author{
+
+    align-self:center;
+    margin-left: 50%;
+    font-weight: bold;
 }
