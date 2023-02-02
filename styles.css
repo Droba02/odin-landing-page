@@ -87,14 +87,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
+    
 }
 
 .content-box{
     max-width: 15%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
     align-items: center;
 }
 
@@ -112,7 +113,7 @@ body {
     color: #1F2937;
 }
 
-.content-box{
+.content-box p{
     overflow: auto;
     text-align: center;
 }
@@ -145,4 +146,56 @@ body {
     align-self:center;
     margin-left: 50%;
     font-weight: bold;
+}
+
+.blue-square{
+    display: flex;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px ;
+    
+}
+.sign-up button{
+    align-self: center;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    
+}
+
+.text h2{
+    margin-bottom: 0;
+}
+
+.text p{
+    margin-top:0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70px;
 }
